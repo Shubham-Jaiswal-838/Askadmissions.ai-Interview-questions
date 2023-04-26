@@ -110,7 +110,8 @@ output:
 
 4. Closure (example, use cases)
 
-5. https://jsfiddle.net/frgnp3sh/3/
+5. you have an input and whenever user entered any sentence in input reverse that sentance and below input show the output of reversed input,
+   and one more thing that you have give all vowels a different color 
 
 
  
