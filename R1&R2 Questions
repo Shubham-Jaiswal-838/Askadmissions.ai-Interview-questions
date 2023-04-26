@@ -1,0 +1,113 @@
+    <------------------ Below questions are mix of Round 1 and Round 2 ------------->
+ 
+1. Promise and Callback (tell what are these and write one example for both)
+
+2.  let categories = [
+{
+    name: "Recommended",
+    showExpanded: false,
+    foodType: "THALI",
+    viewType: "LINEAR",
+    items: ["pizza"]
+  },
+
+  {
+    name: "Breakfast",
+    showExpanded: false,
+    foodType: "THALI",
+    viewType: "LINEAR",
+    items: ["pizza"]
+  },
+
+  {
+    name: "Recommended",
+    showExpanded: false,
+    foodType: "THALI",
+    viewType: "LINEAR",
+    items: ["roti, dal"]
+  },
+
+  {
+    name: "combo",
+    showExpanded: false,
+    foodType: "THALI",
+    viewType: "LINEAR",
+    items: ["pizza"]
+  },
+  {
+    name: "Breakfast",
+    showExpanded: false,
+    foodType: "THALI",
+    viewType: "LINEAR",
+    items: ["dosa, idli"]
+  },
+]
+
+output :
+
+{
+  Recommended: {
+    name: 'Recommended',
+    showExpanded: false,
+    foodType: 'THALI',
+    viewType: 'LINEAR',
+    items: [ 'pizza', 'roti, dal' ]
+  },
+  Breakfast: {
+    name: 'Breakfast',
+    showExpanded: false,
+    foodType: 'THALI',
+    viewType: 'LINEAR',
+    items: [ 'pizza', 'dosa, idli' ]
+  },
+  combo: {
+    name: 'combo',
+    showExpanded: false,
+    foodType: 'THALI',
+    viewType: 'LINEAR',
+    items: [ 'pizza' ]
+  }
+}
+
+
+
+
+// Same above question with 2nd approach with different requirment output should come in array 
+
+output: 
+[
+  {
+    name: 'Recommended',
+    showExpanded: false,
+    foodType: 'THALI',
+    viewType: 'LINEAR',
+    items: [ 'pizza', 'roti, dal' ]
+  },
+  {
+    name: 'Breakfast',
+    showExpanded: false,
+    foodType: 'THALI',
+    viewType: 'LINEAR',
+    items: [ 'pizza', 'dosa, idli' ]
+  },
+  {
+    name: 'combo',
+    showExpanded: false,
+    foodType: 'THALI',
+    viewType: 'LINEAR',
+    items: [ 'pizza' ]
+  }
+]
+
+
+#################################
+
+
+3. c.add(10).minus(5).multiply(2).divide(2) // write a function which can be called like this 
+
+4. Closure (example, use cases)
+
+5. https://jsfiddle.net/frgnp3sh/3/
+
+
+ 
