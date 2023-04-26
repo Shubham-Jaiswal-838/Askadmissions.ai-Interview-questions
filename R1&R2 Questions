@@ -43,6 +43,9 @@
   },
 ]
 
+Problem: In above array of objects each and every object has key with name and some value, 
+merge all objects which has same name in object and along with merge items key values in one and in merged object update it.
+
 output :
 
 {
